@@ -18,4 +18,3 @@ steps:
       - aws eks list-clusters
       - aws ec2 describe-vpcs | jq --raw-output '.Vpcs[] | select(.IsDefault==true) | .CidrBlock ' 
       - kubectl version --client
-      - kubectl get all
