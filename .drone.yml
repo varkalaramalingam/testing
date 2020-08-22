@@ -2,14 +2,23 @@ kind: pipeline
 type: docker
 name: default
 steps:
+#- name: awscli-test
+#  image: ramalingam81/awscli-env:ENV
+#  commands: 
+#  - cat /root/.aws/credentials
+#  - aws s3 ls
+#  settings:
+#    AWS_ACCESS_KEY_ID: 
+#      from_secret: AWS_ACCESS_KEY_ID
+#    AWS_ACCESS_KEY_ID:
+#      from_secret: AWS_SECRET_ACCESS_KEY
+#    AWS_REGION: ap-south-1
+
 - name: awscli-test
-  image: ramalingam81/awscli-env:ENV
-  commands: 
-  - cat /root/.aws/credentials
-  - aws s3 ls
-  settings:
-    AWS_ACCESS_KEY_ID: 
-      from_secret: AWS_ACCESS_KEY_ID
-    AWS_ACCESS_KEY_ID:
-      from_secret: AWS_SECRET_ACCESS_KEY
-    AWS_REGION: ap-south-1
+  image: quay.io/honestbee/awscli:1.11.55
+  environment:
+    - AWS_DEFAULT_REGION=ap-south-1
+    - AWS_DEFAULT_OUTPUT=json
+  commands:
+    - aws ec2 describe-vpcs | jq --raw-output '.Vpcs[] | select(.IsDefault==true) | .CidrBlock ' 
+
