@@ -2,9 +2,9 @@ kind: pipeline
 type: docker
 name: default
 steps:
-  - name: executing aws-cli commands
+  - name: executing aws-cli & kubectl commands
 #    image: quay.io/honestbee/awscli:1.11.55
-    image: ramalingam81/awscli
+    image: ramalingam81/awscli-kubectl
     environment:
       AWS_ACCESS_KEY_ID: 
         from_secret: AWS_ACCESS_KEY_ID
@@ -17,3 +17,5 @@ steps:
       - aws s3 ls
       - aws eks list-clusters
       - aws ec2 describe-vpcs | jq --raw-output '.Vpcs[] | select(.IsDefault==true) | .CidrBlock ' 
+      - kubectl version --client
+      - kubectl get all
