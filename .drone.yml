@@ -1,5 +1,7 @@
-pipeline:
-  test:
+kind: pipeline
+type: docker
+name: default
+steps:
   - image: quay.io/honestbee/awscli:1.11.55
     environment:
       AWS_ACCESS_KEY_ID: 
