@@ -1,6 +1,6 @@
 pipeline:
   test:
-    image: quay.io/honestbee/awscli:1.11.55
+  - image: quay.io/honestbee/awscli:1.11.55
     environment:
       AWS_ACCESS_KEY_ID: 
         from_secret: AWS_ACCESS_KEY_ID
