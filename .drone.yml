@@ -8,8 +8,8 @@ steps:
   - cat /root/.aws/credentials
   - aws s3 ls
   settings:
-    access_key: 
+    AWS_ACCESS_KEY_ID: 
       from_secret: AWS_ACCESS_KEY_ID
-    secret_key:
+    AWS_ACCESS_KEY_ID:
       from_secret: AWS_SECRET_ACCESS_KEY
     region: ap-south-1
