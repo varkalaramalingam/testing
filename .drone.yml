@@ -13,4 +13,5 @@ steps:
       AWS_DEFAULT_OUTPUT: json
     commands:
       - aws s3 ls
+      - aws eks list-clusters
       - aws ec2 describe-vpcs | jq --raw-output '.Vpcs[] | select(.IsDefault==true) | .CidrBlock ' 
