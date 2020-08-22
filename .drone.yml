@@ -15,7 +15,7 @@ steps:
       from_secret: AWS_SECRET_ACCESS_KEY
     AWS_DEFAULT_REGION: ap-south-1
 
-- name: awscli-test
+- name: awscli
   image: quay.io/honestbee/awscli:1.11.55
   environment:
           AWS_DEFAULT_REGION: ap-south-1
