@@ -2,19 +2,19 @@ kind: pipeline
 type: docker
 name: default
 steps:
-  - name: executing aws-cli & kubectl commands
-#    image: quay.io/honestbee/awscli:1.11.55
-    image: ramalingam81/awscli-kubectl
-    environment:
-      AWS_ACCESS_KEY_ID: 
-        from_secret: AWS_ACCESS_KEY_ID
-      AWS_SECRET_ACCESS_KEY:
-        from_secret: AWS_SECRET_ACCESS_KEY
-      AWS_DEFAULT_REGION: ap-south-1
-      AWS_DEFAULT_OUTPUT: json
-    commands:
-      - aws --version
-      - aws s3 ls
-      - aws eks list-clusters
-      - aws ec2 describe-vpcs | jq --raw-output '.Vpcs[] | select(.IsDefault==true) | .CidrBlock ' 
-      - kubectl version --client
+- name: executing aws-cli & kubectl commands
+  image: ramalingam81/awscli-kubectl
+  environment:
+    AWS_ACCESS_KEY_ID: 
+      from_secret: aws_access_key_id
+    AWS_SECRET_ACCESS_KEY:
+      from_secret: aws_secret_accesss_key
+    AWS_DEFAULT_REGION: 
+      from_secret: aws_region
+    AWS_DEFAULT_OUTPUT: json
+  commands:
+    - aws --version
+    - aws s3 ls
+    - aws eks list-clusters
+    - aws ec2 describe-vpcs | jq --raw-output '.Vpcs[] | select(.IsDefault==true) | .CidrBlock ' 
+    - kubectl version --client
