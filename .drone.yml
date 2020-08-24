@@ -19,3 +19,8 @@ steps:
     - aws ec2 describe-vpcs | jq --raw-output '.Vpcs[] | select(.IsDefault==true) | .CidrBlock ' 
     - kubectl version --client
     - aws ecr describe-repositories
+  when:
+    branch:
+      - test
+    event:
+      - push
