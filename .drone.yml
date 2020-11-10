@@ -6,3 +6,4 @@ steps:
   image: ramalingam81/awscli-kubectl
   commands:
     - ls
+    - ls
