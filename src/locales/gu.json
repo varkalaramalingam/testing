@@ -1,0 +1,16 @@
+{
+  "dashboard_cap": "<span class='font20'>ડેશબોર્ડ</span>",
+  "admin_cap": "<span class='font20'>એડમિન</span>",
+  "students_cap": "<span class='font20'>વિદ્યાર્થીઓ</span>",
+  "teachers_cap": "<span class='font20'>શિક્ષકો</span>",
+  "tests_cap": "<span class='font20'>પરીક્ષણો</span>",
+  "classrooms_cap": "<span class='font20'>વર્ગ</span>",
+  "transport_cap": "<span class='font20'>પરિવહન</span>",
+  "analytics_cap": "<span class='font20'>વિશ્લેષણ</span>",
+  "class_analytics_cap": "<span class='font20'>વર્ગ વિશ્લેષણ</span>",
+  "worksheets_cap": "<span class='font20'>વર્કશીટ્સ</span>",
+  "books_cap": "<span class='font20'>પુસ્તકો</span>",
+  "upcoming_events_cap": "આવતા ઘટનાઓ",
+  "news_announcements_cap": "સમાચાર અને જાહેરાત",
+  "holidays_cap": "રજાઓ"
+}

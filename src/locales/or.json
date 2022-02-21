@@ -1,0 +1,16 @@
+{
+  "dashboard_cap": "<span class='font20'>ଦାଶବୋର୍ଡ |</span>",
+  "admin_cap": "<span class='font20'>ପ୍ରଶାସକ</span>",
+  "students_cap": "<span class='font20'>ଛାତ୍ର</span>",
+  "teachers_cap": "<span class='font20'>ଶିକ୍ଷକମାନେ |</span>",
+  "tests_cap": "<span class='font20'>ପରୀକ୍ଷା</span>",
+  "classrooms_cap": "<span class='font20'>କ୍ଲାସ୍ ରୁମ୍ |</span>",
+  "transport_cap": "<span class='font20'>ପରିବହନ</span>",
+  "analytics_cap": "<span class='font20'>ଆନାଲିଟିକ୍ସ |</span>",
+  "class_analytics_cap": "<span class='font20'>କ୍ଲାସ୍ ଆନାଲିଟିକ୍ସ |</span>",
+  "worksheets_cap": "<span class='font20'>କର୍ମକ୍ଷେତ୍ର |</span>",
+  "books_cap": "<span class='font20'>ପୁସ୍ତକ</span>",
+  "upcoming_events_cap": "ଅପକମିଂ ଇଭେଣ୍ଟଗୁଡିକ |",
+  "news_announcements_cap": "ସମ୍ବାଦ ଏବଂ ଘୋଷଣାନାମା |",
+  "holidays_cap": "ହୋଲି"
+}

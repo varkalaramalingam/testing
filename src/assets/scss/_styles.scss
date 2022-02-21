@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import  '_variables.scss';
+@import  '_mixins.scss';
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.common-button {
+    background-color: #0b366f;
+    background-image: none;
+    border-color: #0b366f;
+    color: white;
+    padding: 6px 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px
+}
+
+.common-button:hover {
+    color: white;
+}
+
+.page-layout {
+    padding: 20px 30px;
+}
+
+.page-heading {
+    color: $heading-color;
+    font-size: 24px;
+    padding: 8px 0 0 0;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.divTable {
+    display: table;
+    width: 100%;
+    text-align: left;
+}
+
+.divTableRow {
+    display: table-row;
+    background-color: #dedede;
+    color: #0b356f;
+}
+
+.divTableRowdata {
+    display: table-row;
+    background-color: #fff;
+    color: #666;
+    text-align: left;
+}
+
+.divTableBody .divTableRowdata:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.divTableHeading {
+    background-color: #ffffff;
+    display: table-header-group;
+}
+
+.divTableCell,
+.divTableHead {
+    border: 0.1px solid #eee;
+    display: table-cell;
+    padding: 8px 10px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.divTableCelldata {
+    border: 1px solid #eee;
+    display: table-cell;
+    padding: 8px 10px;
+}
+
+.divTableHeading {
+    background-color: #ffffff;
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.divTableFoot {
+    background-color: #ffffff;
+    display: table-footer-group;
+    font-weight: bold;
+}
+
+.divTableBody {
+    display: table-row-group;
+}
+
+.sidebar {
+    padding-right: 0px;
+    height: calc(100vh - 97px);
+    background: #f6f6f6;
+    box-shadow: 0px 3px 7px #1d1d1d3d;
+}
+
+.sidebar-li {
+    list-style-type: none;
+}
+
+.sidebar-ul {
+    padding-left: 0px;
+}
+
+.adminsidebar {
+    background-color: #eaeaea;
+    color: black;
+    position: relative;
+    display: block;
+    color: #fb6750!important;
+}
+
+.sidebar-ul>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #1e326d;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.sidebar-ul>li :hover {
+    color: #fb674f;
+}
+
+.sidebar-ul>li .adminsidebar {
+    color: black;
+}
+
+.sidebar-ul>li>a:hover,
+.sidebar-ul>li>a:focus {
+    text-decoration: none;
+    color: #fb674f;
+}
+
+#custom-search-input .input-group-btn {
+    position: absolute;
+    right: 34px;
+    background: transparent;
+    z-index: 9;
+}
+
+#custom-search-input .input-group-btn .search-query {
+    border-radius: 3px!important
+}
+
+#custom-search-input .input-group-btn .btn {
+    background: transparent
+}
+
+.searchbar input {
+    min-width: 260px;
+}
+
+.divTableCelldata a {
+    color: #428bca;
+    text-decoration: none;
+}
+.previousbutton,
+.nextbutton,
+.previousbutton:hover,
+.nextbutton:hover {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  color: black
+}
+
+.flex{
+    display: flex;
+}
+
+.left-part{
+    position: relative;
+}
+
+
+
+
+.left-pet-txt{
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    text-align: center
+}
+
+.left-part-bg-color{
+    width: calc(100% + -15px);
+    background: #1779BA;
+    opacity: 0.68;
+    position: absolute;
+    z-index: 9;
+    height: 100vh;
+}
+
+.left-part-img{
+    width: calc(100% + 15px);
+    height: 100vh;
+    
+}
+
+.right-part{
+    position: relative;
+    height: 100vh;
+}
+
+.login-part{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-part img{
+    margin-bottom: 25px
+}
+
+.login-part input{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding:5px;
+    margin-bottom: 25px
+}
+@media (min-width: 768px){
+    .responsive-css{
+        display: flex;
+        flex-wrap: wrap-reverse
+    }
+}
+
+
+@media (max-width: 576px){
+    .left-part-bg-color{
+        height: 50vh;
+    }
+    .left-part-img{
+        height: 50vh;
+    }
+    .right-part{
+        height: 50vh;
+    }
+    .left-pet-txt{
+        font-size:2em
+    }
+    
+}
+
+   

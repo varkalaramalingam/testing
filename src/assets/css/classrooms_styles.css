@@ -1,0 +1,100 @@
+.studentstable{
+    width:100%;
+    }
+    .divTable{
+    display: table;
+    width: 100%;
+    text-align: center;
+    }
+    .divTableRow {
+    display: table-row;
+    background-color: dimgray;
+    color: white;
+    height: 30px;
+    }
+    .divTableRowdata {
+    display: table-row;
+    background-color: #fff;
+    color: #000;
+    height: 30px;
+    }
+    .divTableHeading {
+    background-color: #ffffff;
+    display: table-header-group;
+    }
+    .divTableCell, .divTableHead {
+    border: 1px solid #eee;
+    display: table-cell;
+    padding: 3px 10px;
+    }
+    .divTableCelldata{
+    border: 1px solid #eee;
+    display: table-cell;
+    padding: 3px 10px;
+    }
+    .divTableHeading {
+    background-color: #ffffff;
+    display: table-header-group;
+    font-weight: bold;
+    }
+    .divTableFoot {
+    background-color: #ffffff;
+    display: table-footer-group;
+    font-weight: bold;
+    }
+    .divTableBody {
+    display: table-row-group;
+    }
+    .newstudent{
+    background-color: #039be5;
+    background-image: none;
+    border-color: #039be5;
+    color:white;
+    padding: 5px 30px;
+    margin-top: -2px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration:none;
+    border-radius:0px
+    }
+    .newstudent:hover{
+    color:white;
+    }
+    resetbutton{
+    background-color:#039be5;
+    }
+    .btn{
+        border-radius:0px;
+        color:#fff
+    }
+    .btn:hover, .btn:focus {
+        color: #fff;
+        text-decoration: none;
+    }
+    .selectsection{
+        margin-left: -42px;
+        margin-top: -3px;
+    }
+    .sectioncolumn{
+        margin-top: 10px;
+    }
+    a:active, a:hover,a:focus {
+        outline: 0;
+    }
+    .gradeFilter{
+      float:left;
+      width:15%
+    }
+    .previousbutton,
+.nextbutton,
+.previousbutton:hover,
+.nextbutton:hover {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    color: black
+}
+

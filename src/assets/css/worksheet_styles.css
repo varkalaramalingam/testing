@@ -1,0 +1,234 @@
+.worksheetName {
+    text-align: center;
+    margin-left: 400px;
+    width: 333px;
+}
+
+.selectQuestionType {
+    float: right;
+    width: 42%;
+}
+
+
+/* .addQuestion {
+    margin-top: -57px;
+    margin-left: 222px;
+  } */
+
+h2 {
+    text-align: center;
+}
+
+.txtarea {
+    width: 700px;
+    height: 85px;
+}
+
+.addQtn {
+    width: 733px;
+    float: left;
+}
+
+.rmvQtn {
+    width: 100px;
+    float: left;
+}
+
+.questionRemvDiv {
+    width: 8%;
+    float: left;
+    margin-top:9px;
+}
+
+.questionDataDiv {
+    width: 92%;
+    float: left;
+}
+
+.newstudent {
+    background-color: #039be5;
+    background-image: none;
+    border-color: #039be5;
+    color: white;
+    padding: 5px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0px
+}
+
+.newstudent:hover {
+    color: white;
+}
+
+.questionDiv {
+    height: 240px;
+}
+
+.noImgDiv {
+    height: 307px;
+}
+
+.oneImgDiv {
+    height: 360px;
+}
+
+.twoImgDiv {
+    height: 429px;
+}
+
+.threeImgDiv {
+    height: 500px;
+}
+
+.optionFloat {
+    float: left;
+}
+
+.optionA {}
+
+.optionB {
+    margin-left: 115px;
+}
+
+.fourImgDiv {
+    height: 554px;
+}
+
+.optionDivFileUpload {
+    height: 111px;
+}
+
+.optionDivText {
+    height: 56px;
+}
+
+.optionDivCkeditor {
+    height: 186px;
+}
+
+.showImagePopUp {
+    margin-top: -104px;
+    margin-left: 286px;
+}
+
+.selectAnsType {
+    width: 196px;
+    margin-top: -34px;
+    margin-left: 40px;
+}
+
+.ansText {
+    width: 240px;
+}
+
+.questionsDis {
+    margin: auto;
+    width: 730px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.worksheetDetails {
+    margin-left: 400px;
+}
+
+.selectWidth {
+    width: 150px;
+}
+
+.selectSection {
+    margin-top: -34px;
+    margin-left: 170px;
+}
+
+.selectSubject {
+    margin-top: -34px;
+    margin-left: 340px;
+}
+
+.ansField {
+    margin-top: -34px;
+    margin-left: 240px;
+    width: 228px;
+}
+
+.modal-dialog {
+    overflow-y: initial !important
+}
+
+.modal-body {
+    height: 370px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.uploader {
+    text-align: center;
+    background-color: #2196F3;
+    margin-left: 19px;
+    margin-top: 0px;
+    width: 243px;
+    color: #fff;
+    border-radius: 10px;
+    border: 3px dashed #fff;
+    font-size: 15px;
+    padding: 2px 15px;
+    height: 105px;
+}
+
+.saveWrksheetBtn {
+    text-align: center;
+}
+
+.showAlertDiv {
+    margin-left: 404px;
+    width: 300px;
+}
+
+.search-btn {
+    background-color: #039be5;
+}
+
+.gradeFilter {
+    float: left;
+    width: 15%;
+    /* position: absolute; */
+}
+
+.showPopUpAlertDiv {
+    height: 48px;
+    width: 279px;
+    margin-top: -26px;
+    margin-left: 255px;
+}
+
+.table {
+    border: 0px !important;
+}
+
+.table th,
+.table td {
+    border: 0px !important;
+}
+
+.fixed-table-container {
+    border: 0px !important;
+}
+
+.previousbutton,
+.nextbutton,
+.previousbutton:hover,
+.nextbutton:hover {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    color: black
+}
+
+

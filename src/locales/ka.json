@@ -1,0 +1,16 @@
+{
+  "dashboard_cap": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+  "admin_cap": "ನಿರ್ವಾಹಕ",
+  "students_cap": "ವಿದ್ಯಾರ್ಥಿಗಳು",
+  "teachers_cap": "ಶಿಕ್ಷಕರು",
+  "tests_cap": "ಪರೀಕ್ಷೆಗಳು",
+  "classrooms_cap": "ವರ್ಗ ಕೊಠಡಿ",
+  "transport_cap": "ಸಾರಿಗೆ",
+  "analytics_cap": "ವಿಶ್ಲೇಷಣೆ",
+  "class_analytics_cap": "ವರ್ಗ ವಿಶ್ಲೇಷಣೆ",
+  "worksheets_cap": "ಕೆಲಸದ ಹಾಳೆಗಳು",
+  "books_cap": "ಪುಸ್ತಕಗಳು",
+  "upcoming_events_cap": "ಕಾರ್ಯಕ್ರಮಗಳು",
+  "news_announcements_cap": "ಸುದ್ದಿ ಮತ್ತು ಪ್ರಕಟಣೆಗಳು",
+  "holidays_cap": "ರಜಾದಿನಗಳು"
+}
