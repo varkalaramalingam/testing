@@ -22,7 +22,7 @@
     "vue-axios": "^2.0.2",
     "vue-bootstrap-typeahead": "^0.2.6",
     "vue-chartjs": "^3.3.1",
-    "vue-chartkick": "^0.3.0",
+    "vue-chartkick": "^0.6.1",
     "vue-cookie": "^1.1.4",
     "vue-d3": "^0.1.0",
     "vue-d3-uxgraph": "0.0.3",
