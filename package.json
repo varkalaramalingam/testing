@@ -41,7 +41,7 @@
     "vue-simple-alert": "^1.1.1",
     "vue2-datepicker": "^1.8.2",
     "vue2-highcharts": "^1.1.9",
-    "vue2-timepicker": "^0.1.4",
+    "vue2-timepicker": "^0.2.2",
     "vued3tree": "^3.5.0",
     "vuejs-datepicker": "^1.5.4",
     "vuejs-dialog": "^0.4.7",
