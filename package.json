@@ -28,7 +28,7 @@
     "vue-d3-uxgraph": "0.0.3",
     "vue-datepicker": "^1.3.0",
     "vue-disabled": "0.0.2",
-    "vue-highcharts": "0.0.10",
+    "vue-highcharts": "0.2.0",
     "vue-i18n": "^8.22.0",
     "vue-js-toggle-button": "^1.2.2",
     "vue-localstorage": "^0.6.1",
