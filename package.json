@@ -42,7 +42,7 @@
     "vue2-datepicker": "^1.8.2",
     "vue2-highcharts": "^1.1.9",
     "vue2-timepicker": "^0.1.4",
-    "vued3tree": "^3.5.0",
+    "vued3tree": "^4.1.0",
     "vuejs-datepicker": "^1.5.4",
     "vuejs-dialog": "^0.4.7",
     "vuex": "^3.1.0",
